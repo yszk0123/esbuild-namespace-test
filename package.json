@@ -1,0 +1,11 @@
+{
+  "name": "esbuild-namespace-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild --bundle src/index.ts --outfile=dist/out.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.19"
+  }
+}
